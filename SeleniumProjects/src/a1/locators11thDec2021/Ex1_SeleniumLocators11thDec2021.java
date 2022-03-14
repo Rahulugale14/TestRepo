@@ -10,7 +10,7 @@ public class Ex1_SeleniumLocators11thDec2021 {
 		
 		System.setProperty("webdriver.chrome.driver", "E:\\Selenium\\chromedriver.exe");
 		
-		WebDriver driver = new ChromeDriver();
+		WebDriver driver = new ChromeDriver(); 						// initializing the webdriver
 		driver.manage().window().maximize();
 		
 		driver.get("https://www.flipkart.com/");
